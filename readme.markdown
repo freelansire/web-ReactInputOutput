@@ -13,4 +13,4 @@ The main work here is done in the socket-mixin.js file which is a mixin you can 
 
 In this example only the parent component (people) needs to sync it's state since it also sets the child components. If you do use the socketMixin in the person component you need to keep in mind that it will sync without telling the parent. So the state of the child component might differ from it's parent data.
 
-If you load an other page after you already changed the data in the first page you might notice that they are out sync. This is because the same array gets initialized on each page load. Using a common data source (back-end data storage, indexedDB, ...) would fix this.
+If you do load an other page after you already changed the data in the first page you might notice that they are out sync. This is because the same array gets initialized on each page load. Using a common data source (back-end data storage, indexedDB, ...) would fix this.
