@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "browserify-middleware": "~1.19.0",
-    "express": "~3.4.0",
+    "express": "~4.17.1",
     "lodash": "~2.2.1",
     "reactify": "~0.3.2",
     "socket.io": "~0.9.16",
