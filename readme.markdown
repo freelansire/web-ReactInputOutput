@@ -2,7 +2,7 @@
 
 Small experiment to see how easy it is to synchronize components using Socket.io.
 
-```shell
+```shell*
 git clone git@github.com:enome/react.io.git
 cd react.io
 npm install
