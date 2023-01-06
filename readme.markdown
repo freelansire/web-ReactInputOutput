@@ -7,7 +7,7 @@ git clone git@github.com:enome/react.io.git
 cd react.io
 npm install
 node server.js
-```
+``
 
 The main work here is done in the socket-mixin.js file which is a mixin you can include in your components. It will emit a change event when the state of a component changes. The server will then broadcast this event with the state to all components. Since this would update all the components the event also has a path which relates to the position of the component inside the dom. 
 
