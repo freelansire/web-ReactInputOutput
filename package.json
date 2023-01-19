@@ -6,7 +6,7 @@
   "dependencies": {
     "browserify-middleware": "~1.19.0",
     "express": "~3.4.0",
-    "lodash": "~2.2.1",
+    "lodash": "~4.17.19",
     "reactify": "~0.3.2",
     "socket.io": "~0.9.16",
     "react-tools": "~0.4.1"
